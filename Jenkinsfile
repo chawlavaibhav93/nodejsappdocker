@@ -6,7 +6,7 @@ node {
     }
 
     stage('Build image') {
-        app = docker.build("vachawla/node-js-app")
+        app = docker.build("vachawla/nodejsapp")
     }
 
     stage('Test image') {
